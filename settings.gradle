@@ -1,0 +1,10 @@
+/*
+ * Settings file for CS 3100 lab on specs and equality.
+ */
+
+plugins {
+    // Apply the foojay-resolver plugin to allow automatic download of JDKs
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+rootProject.name = 'lab-medicine'
